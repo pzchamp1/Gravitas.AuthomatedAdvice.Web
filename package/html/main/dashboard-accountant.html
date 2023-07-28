@@ -77,65 +77,48 @@
             <!-- Dashboard -->
             <!-- =================== -->
             <li class="sidebar-item">
-              <a class="sidebar-link" href="./dashboard-accountant.html" aria-expanded="false">
-                <span>
-                  <i class="ti ti-aperture"></i>
-                </span>
-                <span class="hide-menu">Accountant Dashboard</span>
-              </a>
-            </li>
-            <li class="sidebar-item">
-              <a class="sidebar-link" href="./index2.html" aria-expanded="false">
-                <span>
-                  <i class="ti ti-shopping-cart"></i>
-                </span>
-                <span class="hide-menu">eCommerce</span>
-              </a>
-            </li>
-            <li class="sidebar-item">
-              <a class="sidebar-link" href="./index3.html" aria-expanded="false">
-                <span>
-                  <i class="ti ti-currency-dollar"></i>
-                </span>
-                <span class="hide-menu">NFT</span>
-              </a>
-            </li>
-            <li class="sidebar-item">
-              <a class="sidebar-link" href="./index4.html" aria-expanded="false">
-                <span>
-                  <i class="ti ti-cpu"></i>
-                </span>
-                <span class="hide-menu">Crypto</span>
-              </a>
-            </li>
-            <li class="sidebar-item">
-              <a class="sidebar-link" href="./index5.html" aria-expanded="false">
+              <a class="sidebar-link has-arrow" href="#" aria-expanded="false">
                 <span>
                   <i class="ti ti-activity-heartbeat"></i>
                 </span>
-                <span class="hide-menu">General</span>
+                <span class="hide-menu">Accountant Dashboard</span>
               </a>
+              <ul aria-expanded="false" class="collapse first-level">
+                <li class="sidebar-item">
+                  <a href="#opportunities-card" class="sidebar-link">
+                    <div class="round-16 d-flex align-items-center justify-content-center">
+                      <i class="ti ti-circle"></i>
+                    </div>
+                    <span class="hide-menu">Opportunities</span>
+                  </a>
+                </li>
+                <li class="sidebar-item">
+                  <a href="#clients-card" class="sidebar-link">
+                    <div class="round-16 d-flex align-items-center justify-content-center">
+                      <i class="ti ti-circle"></i>
+                    </div>
+                    <span class="hide-menu">Clients</span>
+                  </a>
+                </li>
+                <li class="sidebar-item">
+                  <a href="#chat-card" class="sidebar-link">
+                    <div class="round-16 d-flex align-items-center justify-content-center">
+                      <i class="ti ti-circle"></i>
+                    </div>
+                    <span class="hide-menu">Chat to CFP</span>
+                  </a>
+                </li>
+              </ul>
             </li>
             <li class="sidebar-item">
-              <a class="sidebar-link" href="./index6.html" aria-expanded="false">
+              <a class="sidebar-link" href="./dashboard-client.html" aria-expanded="false">
                 <span>
-                  <i class="ti ti-playlist"></i>
+                  <i class="ti ti-activity-heartbeat"></i>
                 </span>
-                <span class="hide-menu">Music</span>
+                <span class="hide-menu">Client Dashboard</span>
               </a>
-            </li>
+            </li>            
           </ul>
-          <div class="unlimited-access hide-menu bg-light-primary position-relative my-7 rounded">
-            <div class="d-flex">
-              <div class="unlimited-access-title">
-                <h6 class="fw-semibold fs-4 mb-6 text-dark w-85">Unlimited Access</h6>
-                <button class="btn btn-primary fs-2 fw-semibold lh-sm">Signup</button>
-              </div>
-              <div class="unlimited-access-img">
-                <img src="../../dist/images/backgrounds/rocket.png" alt="" class="img-fluid">
-              </div>
-            </div>
-          </div>
         </nav>
         <div class="fixed-profile p-3 bg-light-secondary rounded sidebar-ad mt-3">
           <div class="hstack gap-3">
@@ -423,7 +406,7 @@
         <!-- Companies -->
         <div class="row">
           <div class="col-12">
-            <div class="card">
+            <div class="card" id="opportunities-card">
               <div class="card-body p-4">
                 <h5 class="card-title fw-semibold">Opportunities</h5>
                 <p class="card-subtitle mb-0">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste illum, nisi
@@ -613,7 +596,7 @@
           </div>
         </div>
         <!-- Clients -->
-        <div class="row">
+        <div class="row" id="clients-card">
           <div class="col-xl-9">
             <!-- ---------------------start Individual column searching (text inputs)---------------- -->
             <div class="card">
@@ -1232,7 +1215,7 @@
             <!-- ---------------------end Individual column searching (text inputs)---------------- -->
           </div>
         </div>
-        <div class="card overflow-hidden chat-application">
+        <div class="card overflow-hidden chat-application" id="chat-card">
           <div class="d-flex align-items-center justify-content-between gap-3 m-3 d-lg-none">
             <button class="btn btn-primary d-flex" type="button" data-bs-toggle="offcanvas"
               data-bs-target="#chat-sidebar" aria-controls="chat-sidebar">
