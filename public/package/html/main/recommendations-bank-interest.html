@@ -389,7 +389,7 @@
           <div class="card-body px-4 py-3">
             <div class="row align-items-center">
               <div class="col-9">
-                <h4 class="fw-semibold mb-8">Client Dashboard</h4>
+                <h4 class="fw-semibold mb-8">Recommendations: Bank Interest</h4>
                 <nav aria-label="breadcrumb">
                   <ol class="breadcrumb">
                     <li class="breadcrumb-item">
@@ -397,6 +397,9 @@
                     </li>
                     <li class="breadcrumb-item" aria-current="page">
                       Client
+                    </li>
+                    <li class="breadcrumb-item" aria-current="page">
+                      Recommendations
                     </li>
                   </ol>
                 </nav>
@@ -409,99 +412,396 @@
             </div>
           </div>
         </div>
-        <div class="row widget-app-columns">
-          <!-- -------------------------------------------------------------- -->
-          <!-- Investments-->
-          <!-- -------------------------------------------------------------- -->
-          <div class="col-lg-4">
-            <!-- Card -->
-            <div class="card">
+        <div class="row">
+          <!-- col -->
+          <div class="col-lg-4 col-md-6">
+            <div class="card bg-dark">
               <div class="card-body">
-                <div class="d-flex flex-row">
-                  <div
-                    class="round-40 rounded-circle text-white d-flex align-items-center justify-content-center bg-info">
-                    <i class="ti ti-credit-card fs-6"></i>
+                <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                  <!-- Carousel items -->
+                  <div class="carousel-inner">
+                    <div class="carousel-item flex-column">
+                      <div class="d-flex no-block align-items-center me-3">
+                        <i class="ti ti-currency-ethereum display-6 text-white me-3"></i>
+                        <div class="mt-2">
+                          <h5 class="text-white ">
+                            Ethereum
+                          </h5>
+                          <h6 class="text-white">Exchange</h6>
+                        </div>
+                        <div class="ms-auto mt-3">
+                          <div class="crypto"></div>
+                        </div>
+                      </div>
+                      <div class="row text-center text-white mt-4">
+                        <div class="col-4">
+                          <span class="fs-3">% 1h</span>
+                          <p class=""><i class="ti ti-arrow-up fs-5"></i> 1.18</p>
+                        </div>
+                        <div class="col-4">
+                          <span class="fs-3">% 24h</span>
+                          <p class=""><i class="ti ti-arrow-down fs-5"></i> -5.16</p>
+                        </div>
+                        <div class="col-4">
+                          <span class="fs-3">% 7d</span>
+                          <p class=""><i class="ti ti-arrow-up fs-5"></i> -20.10</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="carousel-item flex-column">
+                      <div class="d-flex no-block align-items-center me-3">
+                        <i class="ti ti-currency-ethereum display-6 text-white me-3"></i>
+                        <div class="mt-2">
+                          <h5 class="text-white ">
+                            Ethereum
+                          </h5>
+                          <h6 class="text-white">Exchange</h6>
+                        </div>
+                        <div class="ms-auto mt-3">
+                          <div class="crypto"></div>
+                        </div>
+                      </div>
+                      <div class="row text-center text-white mt-4">
+                        <div class="col-4">
+                          <span class="fs-3">% 1h</span>
+                          <p class=""><i class="ti ti-arrow-up fs-5"></i> 2.08</p>
+                        </div>
+                        <div class="col-4">
+                          <span class="fs-3">% 24h</span>
+                          <p class=""><i class="ti ti-arrow-down fs-5"></i> -1.16</p>
+                        </div>
+                        <div class="col-4">
+                          <span class="fs-3">% 7d</span>
+                          <p class=""><i class="ti ti-arrow-up fs-5"></i> -1.08</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="carousel-item flex-column active">
+                      <div class="d-flex no-block align-items-center me-3">
+                        <i class="ti ti-currency-ethereum display-6 text-white me-3"></i>
+                        <div class="mt-2">
+                          <h5 class="text-white ">
+                            Ethereum
+                          </h5>
+                          <h6 class="text-white">Exchange</h6>
+                        </div>
+                        <div class="ms-auto mt-3">
+                          <div class="crypto"></div>
+                        </div>
+                      </div>
+                      <div class="row text-center text-white mt-4">
+                        <div class="col-4">
+                          <span class="fs-3">% 1h</span>
+                          <p class=""><i class="ti ti-arrow-up fs-5"></i> 1.02</p>
+                        </div>
+                        <div class="col-4">
+                          <span class="fs-3">% 24h</span>
+                          <p class=""><i class="ti ti-arrow-down fs-5"></i> -3.16</p>
+                        </div>
+                        <div class="col-4">
+                          <span class="fs-3">% 7d</span>
+                          <p class=""><i class="ti ti-arrow-up fs-5"></i> -10.00</p>
+                        </div>
+                      </div>
+                    </div>
                   </div>
-                  <div class="ms-3 align-self-center">
-                    <h4 class="mb-0 fs-2">My Retirement Fund</h4>
-                  </div>
-                  <div class="ms-auto align-self-center">
-                    <h2 class="fs-3 mb-0">R 1,123,153.00</h2>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="card">
-              <div class="card-body">
-                <div class="d-flex flex-row">
-                  <div
-                    class="round-40 rounded-circle text-white d-flex align-items-center justify-content-center bg-danger">
-                    <i class="ti ti-credit-card fs-6"></i>
-                  </div>
-                  <div class="ms-3 align-self-center">
-                    <h4 class="mb-0 fs-2">Short Term Investments</h4>
-                    <p class="text-muted">Vehicle - R 500,000.00</p>
-                    <p class="text-muted">House - R 1,300,000.00</p>
-                  </div>
-                  <div class="ms-auto align-self-center">
-                    <h2 class="fs-3 mb-0">R1,800,000.00</h2>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="card">
-              <div class="card-body">
-                <div class="d-flex flex-row">
-                  <div
-                    class="round-40 rounded-circle text-white d-flex align-items-center justify-content-center bg-success">
-                    <i class="ti ti-credit-card fs-6"></i>
-                  </div>
-                  <div class="ms-3 align-self-center">
-                    <h4 class="mb-0 fs-2">Buy &amp; Sell Agreements</h4>
-                    <p class="text-muted">Life Cover - R 1,500,000.00</p>
-                    <p class="text-muted">Disablity - R 800,000.00</p>
-                  </div>
-                  <div class="ms-auto align-self-center">
-                    <h2 class="fs-3 mb-0">R2,300,00.00</h2>
-                  </div>
-                </div>
-              </div>
-            </div>            
-            <div class="card">
-              <div class="card-body">
-                <div class="d-flex flex-row">
-                  <div
-                    class="round-40 rounded-circle text-white d-flex align-items-center justify-content-center bg-warning">
-                    <i class="ti ti-credit-card fs-6"></i>
-                  </div>
-                  <div class="ms-3 align-self-center">
-                    <h4 class="mb-0 fs-2">Personal Cover</h4>
-                    <p class="text-muted">Dread Disease - R500,000.00</p>
-                    <p class="text-muted">Income Protector - R100,000.00</p>
-                  </div>
-                  <div class="ms-auto align-self-center">
-                    <h2 class="fs-3 mb-0">R600,000.00</h2>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="card">
-              <div class="card-body">
-                <h3 class="fs-6">
-                  My Will
-                </h3>
-                <p class="mb-0 mt-2 text-muted">
-                  Titudin venenatis ipsum ac feugiat. Vestibulum ullamcorper quam.
-                </p>
-                <div class="text-end">
-                  <button class="btn btn-primary rounded-pill mt-3">
-                    View
-                  </button>
                 </div>
               </div>
             </div>
           </div>
-          <div class="col-lg-8">
+        </div>
+        <div class="row">
+          <!-- col -->
+          <div class="col-lg-4 col-md-6">
+            <div class="card bg-danger">
+              <div class="card-body">
+                <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                  <!-- Carousel items -->
+                  <div class="carousel-inner">
+                    <div class="carousel-item flex-column">
+                      <div class="d-flex no-block align-items-center me-3">
+                        <i class="ti ti-currency-bitcoin display-6 text-white" title="BTC"></i>
+                        <div class="mt-2">
+                          <h5 class="text-white ">
+                            Bitcoin
+                          </h5>
+                          <h6 class="text-white">Realestate</h6>
+                        </div>
+                        <div class="ms-auto mt-3">
+                          <div class="crypto"></div>
+                        </div>
+                      </div>
+                      <div class="row text-center text-white mt-4">
+                        <div class="col-4">
+                          <span class="fs-3">% 1h</span>
+                          <p class=""><i class="ti ti-arrow-up fs-5"></i> 0.08</p>
+                        </div>
+                        <div class="col-4">
+                          <span class="fs-3">% 24h</span>
+                          <p class=""><i class="ti ti-arrow-down fs-5"></i> -1.06</p>
+                        </div>
+                        <div class="col-4">
+                          <span class="fs-3">% 7d</span>
+                          <p class=""><i class="ti ti-arrow-up fs-5"></i> -20.10</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="carousel-item flex-column">
+                      <div class="d-flex no-block align-items-center me-3">
+                        <i class="ti ti-currency-bitcoin display-6 text-white me-3" title="BTC"></i>
+                        <div class="mt-2">
+                          <h5 class="text-white ">
+                            Bitcoin
+                          </h5>
+                          <h6 class="text-white">Realestate</h6>
+                        </div>
+                        <div class="ms-auto mt-3">
+                          <div class="crypto"></div>
+                        </div>
+                      </div>
+                      <div class="row text-center text-white mt-4">
+                        <div class="col-4">
+                          <span class="fs-3">% 1h</span>
+                          <p class=""><i class="ti ti-arrow-up fs-5"></i> 2.08</p>
+                        </div>
+                        <div class="col-4">
+                          <span class="fs-3">% 24h</span>
+                          <p class=""><i class="ti ti-arrow-down fs-5"></i> -3.06</p>
+                        </div>
+                        <div class="col-4">
+                          <span class="fs-3">% 7d</span>
+                          <p class=""><i class="ti ti-arrow-up fs-5"></i> -21.01</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="carousel-item flex-column active">
+                      <div class="d-flex no-block align-items-center me-3">
+                        <i class="ti ti-currency-bitcoin display-6 text-white me-3" title="BTC"></i>
+                        <div class="mt-2">
+                          <h5 class="text-white ">
+                            Bitcoin
+                          </h5>
+                          <h6 class="text-white">Realestate</h6>
+                        </div>
+                        <div class="ms-auto mt-3">
+                          <div class="crypto"></div>
+                        </div>
+                      </div>
+                      <div class="row text-center text-white mt-4">
+                        <div class="col-4">
+                          <span class="fs-3">% 1h</span>
+                          <p class=""><i class="ti ti-arrow-up fs-5"></i> 0.12</p>
+                        </div>
+                        <div class="col-4">
+                          <span class="fs-3">% 24h</span>
+                          <p class=""><i class="ti ti-arrow-down fs-5"></i> -1.06</p>
+                        </div>
+                        <div class="col-4">
+                          <span class="fs-3">% 7d</span>
+                          <p class=""><i class="ti ti-arrow-up fs-5"></i> -0.08</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- col -->
+          <div class="col-lg-4 col-md-6">
+            <div class="card bg-success">
+              <div class="card-body">
+                <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                  <!-- Carousel items -->
+                  <div class="carousel-inner">
+                    <div class="carousel-item flex-column">
+                      <div class="d-flex no-block al me-3ign-items-center">
+                        <i class="ti ti-currency-euro display-6 text-white me-3" title="EOS"></i>
+                        <div class="mt-2">
+                          <h5 class="text-white ">
+                            EOS
+                          </h5>
+                          <h6 class="text-white">Banking</h6>
+                        </div>
+                        <div class="ms-auto mt-3">
+                          <div class="crypto"></div>
+                        </div>
+                      </div>
+                      <div class="row text-center text-white mt-4">
+                        <div class="col-4">
+                          <span class="fs-3">% 1h</span>
+                          <p class=""><i class="ti ti-arrow-up fs-5"></i> 0.18</p>
+                        </div>
+                        <div class="col-4">
+                          <span class="fs-3">% 24h</span>
+                          <p class=""><i class="ti ti-arrow-down fs-5"></i> -5.10</p>
+                        </div>
+                        <div class="col-4">
+                          <span class="fs-3">% 7d</span>
+                          <p class=""><i class="ti ti-arrow-up fs-5"></i> -0.10</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="carousel-item flex-column">
+                      <div class="d-flex no-block al me-3ign-items-center">
+                        <i class="ti ti-currency-euro display-6 text-white me-3" title="EOS"></i>
+                        <div class="mt-2">
+                          <h5 class="text-white ">
+                            EOS
+                          </h5>
+                          <h6 class="text-white">Banking</h6>
+                        </div>
+                        <div class="ms-auto mt-3">
+                          <div class="crypto"></div>
+                        </div>
+                      </div>
+                      <div class="row text-center text-white mt-4">
+                        <div class="col-4">
+                          <span class="fs-3">% 1h</span>
+                          <p class=""><i class="ti ti-arrow-up fs-5"></i> 1.08</p>
+                        </div>
+                        <div class="col-4">
+                          <span class="fs-3">% 24h</span>
+                          <p class=""><i class="ti ti-arrow-down fs-5"></i> -1.16</p>
+                        </div>
+                        <div class="col-4">
+                          <span class="fs-3">% 7d</span>
+                          <p class=""><i class="ti ti-arrow-up fs-5"></i> -1.01</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="carousel-item flex-column active">
+                      <div class="d-flex no-block al me-3ign-items-center">
+                        <i class="ti ti-currency-euro display-6 text-white me-3" title="EOS"></i>
+                        <div class="mt-2">
+                          <h5 class="text-white ">
+                            EOS
+                          </h5>
+                          <h6 class="text-white">Banking</h6>
+                        </div>
+                        <div class="ms-auto mt-3">
+                          <div class="crypto"></div>
+                        </div>
+                      </div>
+                      <div class="row text-center text-white mt-4">
+                        <div class="col-4">
+                          <span class="fs-3">% 1h</span>
+                          <p class=""><i class="ti ti-arrow-up fs-5"></i> 2.16</p>
+                        </div>
+                        <div class="col-4">
+                          <span class="fs-3">% 24h</span>
+                          <p class=""><i class="ti ti-arrow-down fs-5"></i> -1.00</p>
+                        </div>
+                        <div class="col-4">
+                          <span class="fs-3">% 7d</span>
+                          <p class=""><i class="ti ti-arrow-up fs-5"></i> -2.08</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- col -->
+          <div class="col-lg-4 col-md-6">
+            <div class="card bg-dark">
+              <div class="card-body">
+                <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                  <!-- Carousel items -->
+                  <div class="carousel-inner">
+                    <div class="carousel-item flex-column">
+                      <div class="d-flex no-block align-items-center me-3">
+                        <i class="ti ti-currency-ethereum display-6 text-white me-3"></i>
+                        <div class="mt-2">
+                          <h5 class="text-white ">
+                            Ethereum
+                          </h5>
+                          <h6 class="text-white">Exchange</h6>
+                        </div>
+                        <div class="ms-auto mt-3">
+                          <div class="crypto"></div>
+                        </div>
+                      </div>
+                      <div class="row text-center text-white mt-4">
+                        <div class="col-4">
+                          <span class="fs-3">% 1h</span>
+                          <p class=""><i class="ti ti-arrow-up fs-5"></i> 1.18</p>
+                        </div>
+                        <div class="col-4">
+                          <span class="fs-3">% 24h</span>
+                          <p class=""><i class="ti ti-arrow-down fs-5"></i> -5.16</p>
+                        </div>
+                        <div class="col-4">
+                          <span class="fs-3">% 7d</span>
+                          <p class=""><i class="ti ti-arrow-up fs-5"></i> -20.10</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="carousel-item flex-column">
+                      <div class="d-flex no-block align-items-center me-3">
+                        <i class="ti ti-currency-ethereum display-6 text-white me-3"></i>
+                        <div class="mt-2">
+                          <h5 class="text-white ">
+                            Ethereum
+                          </h5>
+                          <h6 class="text-white">Exchange</h6>
+                        </div>
+                        <div class="ms-auto mt-3">
+                          <div class="crypto"></div>
+                        </div>
+                      </div>
+                      <div class="row text-center text-white mt-4">
+                        <div class="col-4">
+                          <span class="fs-3">% 1h</span>
+                          <p class=""><i class="ti ti-arrow-up fs-5"></i> 2.08</p>
+                        </div>
+                        <div class="col-4">
+                          <span class="fs-3">% 24h</span>
+                          <p class=""><i class="ti ti-arrow-down fs-5"></i> -1.16</p>
+                        </div>
+                        <div class="col-4">
+                          <span class="fs-3">% 7d</span>
+                          <p class=""><i class="ti ti-arrow-up fs-5"></i> -1.08</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="carousel-item flex-column active">
+                      <div class="d-flex no-block align-items-center me-3">
+                        <i class="ti ti-currency-ethereum display-6 text-white me-3"></i>
+                        <div class="mt-2">
+                          <h5 class="text-white ">
+                            Ethereum
+                          </h5>
+                          <h6 class="text-white">Exchange</h6>
+                        </div>
+                        <div class="ms-auto mt-3">
+                          <div class="crypto"></div>
+                        </div>
+                      </div>
+                      <div class="row text-center text-white mt-4">
+                        <div class="col-4">
+                          <span class="fs-3">% 1h</span>
+                          <p class=""><i class="ti ti-arrow-up fs-5"></i> 1.02</p>
+                        </div>
+                        <div class="col-4">
+                          <span class="fs-3">% 24h</span>
+                          <p class=""><i class="ti ti-arrow-down fs-5"></i> -3.16</p>
+                        </div>
+                        <div class="col-4">
+                          <span class="fs-3">% 7d</span>
+                          <p class=""><i class="ti ti-arrow-up fs-5"></i> -10.00</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row widget-app-columns">
+          <div class="col-12">
             <!-- -------------------------------------------------------------- -->
             <!-- Investments Chart-->
             <!-- -------------------------------------------------------------- -->
@@ -510,381 +810,10 @@
                 <div class="d-md-flex align-items-start gap-3">
                   <div>
                     <h6 class="mb-0">Investment Overview</h6>
-                    <div class="d-flex align-items-center gap-3">
-                      <span class="badge bg-primary  px-2 py-1 d-flex align-items-center">
-                        <i class="ti ti-chevron-down fs-4"></i>2.8% </span>
-                    </div>
-                  </div>
-                  <div class="ms-auto">
-                    <select class="form-select">
-                      <option value="1">March 2023</option>
-                      <option value="2">April 2023</option>
-                      <option value="3">May 2023</option>
-                      <option value="4">June 2023</option>
-                    </select>
                   </div>
                 </div>
                 <div class="mt-4">
                   <div id="financial"></div>
-                </div>
-              </div>
-            </div>
-            <div class="row widget-app-columns">
-              <!-- -------------------------------------------------------------- -->
-              <!-- Start A New Goal-->
-              <!-- -------------------------------------------------------------- -->
-              <div class="card">
-                <div class="card-body">
-                  <h4 class="card-title">Start A New Goal</h4>
-                  <div class="todo-widget">
-                    <ul class="list-task todo-list list-group mb-0" data-role="tasklist">
-                      <li class="
-                          list-group-item
-                          todo-item
-                          border-0
-                          mb-0
-                          py-3
-                          pe-3
-                          ps-0
-                        " data-role="task">
-                        <div class="form-check">
-                          <input type="checkbox" class="form-check-input success check-light-success" id="newc1" />
-                          <label class="
-                              form-check-label
-                              todo-label
-                              d-md-flex
-                              align-items-center
-                              ps-2
-                            " for="newc1">
-                            <div>
-                              <h5 class="todo-desc mb-0 fs-3 font-weight-medium">
-                                Save for Holiday
-                              </h5>
-                              <div class="todo-desc text-muted fw-normal fs-2">
-                                2 January 2023
-                              </div>
-                            </div>
-                            <div class="ms-auto">
-                              <div class="dropdown dropstart">
-                                <a href="#" class="link" id="new" data-bs-toggle="dropdown" aria-expanded="false">
-                                  <i class="ti ti-dots fs-6 text-dark"></i>
-                                </a>
-                                <ul class="dropdown-menu" aria-labelledby="new">
-                                  <li>
-                                    <h6 class="dropdown-header">
-                                      Choose Label
-                                    </h6>
-                                  </li>
-                                  <li>
-                                    <a class="dropdown-item" href="#">
-                                      <span class="
-                                          badge
-                                          bg-light-success
-                                          text-success
-                                          font-weight-medium
-                                        ">Primary</span>
-                                    </a>
-                                  </li>
-                                  <li>
-                                    <a class="dropdown-item" href="#">
-                                      <span class="
-                                          badge
-                                          bg-light-info
-                                          text-info
-                                          font-weight-medium
-                                        ">Social</span>
-                                    </a>
-                                  </li>
-                                  <li>
-                                    <a class="dropdown-item" href="#">
-                                      <span class="
-                                          badge
-                                          bg-light-primary
-                                          text-primary
-                                          font-weight-medium
-                                        ">Promotions</span>
-                                    </a>
-                                  </li>
-                                  <li>
-                                    <a class="dropdown-item" href="#">
-                                      <span class="
-                                          badge
-                                          bg-light-danger
-                                          text-danger
-                                          font-weight-medium
-                                        ">Trash</span>
-                                    </a>
-                                  </li>
-                                </ul>
-                              </div>
-                            </div>
-                          </label>
-                        </div>
-                      </li>
-                      <li class="
-                          list-group-item
-                          todo-item
-                          border-0
-                          mb-0
-                          py-3
-                          pe-3
-                          ps-0
-                        " data-role="task">
-                        <div class="form-check">
-                          <input type="checkbox" class="form-check-input primary check-light-primary" id="newc2" />
-                          <label class="
-                              form-check-label
-                              todo-label
-                              d-md-flex
-                              align-items-center
-                              ps-2
-                            " for="newc2">
-                            <div>
-                              <h5 class="todo-desc mb-0 fs-3 font-weight-medium">
-                                Set up Trust
-                              </h5>
-                              <div class="todo-desc text-muted fw-normal fs-2">
-                                5 January 2023
-                              </div>
-                            </div>
-                            <div class="ms-auto">
-                              <div class="dropdown dropstart">
-                                <a href="#" class="link" id="new" data-bs-toggle="dropdown" aria-expanded="false">
-                                  <i class="ti ti-dots fs-6 text-dark"></i>
-                                </a>
-                                <ul class="dropdown-menu" aria-labelledby="new">
-                                  <li>
-                                    <h6 class="dropdown-header">
-                                      Choose Label
-                                    </h6>
-                                  </li>
-                                  <li>
-                                    <a class="dropdown-item" href="#">
-                                      <span class="
-                                          badge
-                                          bg-light-success
-                                          text-success
-                                          font-weight-medium
-                                        ">Primary</span>
-                                    </a>
-                                  </li>
-                                  <li>
-                                    <a class="dropdown-item" href="#">
-                                      <span class="
-                                          badge
-                                          bg-light-info
-                                          text-info
-                                          font-weight-medium
-                                        ">Social</span>
-                                    </a>
-                                  </li>
-                                  <li>
-                                    <a class="dropdown-item" href="#">
-                                      <span class="
-                                          badge
-                                          bg-light-primary
-                                          text-primary
-                                          font-weight-medium
-                                        ">Promotions</span>
-                                    </a>
-                                  </li>
-                                  <li>
-                                    <a class="dropdown-item" href="#">
-                                      <span class="
-                                          badge
-                                          bg-light-danger
-                                          text-danger
-                                          font-weight-medium
-                                        ">Trash</span>
-                                    </a>
-                                  </li>
-                                </ul>
-                              </div>
-                            </div>
-                          </label>
-                        </div>
-                      </li>
-                      <li class="
-                          list-group-item
-                          todo-item
-                          border-0
-                          mb-0
-                          py-3
-                          pe-3
-                          ps-0
-                        " data-role="task">
-                        <div class="form-check">
-                          <input type="checkbox" class="form-check-input danger check-light-danger" id="newc3" />
-                          <label class="
-                              form-check-label
-                              todo-label
-                              d-md-flex
-                              align-items-center
-                              ps-2
-                            " for="newc3">
-                            <div>
-                              <h5 class="todo-desc mb-0 fs-3 font-weight-medium">
-                                Save for new house
-                              </h5>
-                              <div class="todo-desc text-muted fw-normal fs-2">
-                                12 January 2023
-                              </div>
-                            </div>
-                            <div class="ms-auto">
-                              <div class="dropdown dropstart">
-                                <a href="#" class="link" id="new" data-bs-toggle="dropdown" aria-expanded="false">
-                                  <i class="ti ti-dots fs-6 text-dark"></i>
-                                </a>
-                                <ul class="dropdown-menu" aria-labelledby="new">
-                                  <li>
-                                    <h6 class="dropdown-header">
-                                      Choose Label
-                                    </h6>
-                                  </li>
-                                  <li>
-                                    <a class="dropdown-item" href="#">
-                                      <span class="
-                                          badge
-                                          bg-light-success
-                                          text-success
-                                          font-weight-medium
-                                        ">Primary</span>
-                                    </a>
-                                  </li>
-                                  <li>
-                                    <a class="dropdown-item" href="#">
-                                      <span class="
-                                          badge
-                                          bg-light-info
-                                          text-info
-                                          font-weight-medium
-                                        ">Social</span>
-                                    </a>
-                                  </li>
-                                  <li>
-                                    <a class="dropdown-item" href="#">
-                                      <span class="
-                                          badge
-                                          bg-light-primary
-                                          text-primary
-                                          font-weight-medium
-                                        ">Promotions</span>
-                                    </a>
-                                  </li>
-                                  <li>
-                                    <a class="dropdown-item" href="#">
-                                      <span class="
-                                          badge
-                                          bg-light-danger
-                                          text-danger
-                                          font-weight-medium
-                                        ">Trash</span>
-                                    </a>
-                                  </li>
-                                </ul>
-                              </div>
-                            </div>
-                          </label>
-                        </div>
-                      </li>                      
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="row widget-app-columns">
-          <div class="col-6">
-            <!-- ---------------------
-            start Business Turnover Spline Area Chart
-             ---------------- -->
-            <div class="card">
-              <div class="card-body">
-                <h5>Business Turnover</h5>
-                <div id="business-turnover-chart-area-spline"></div>
-              </div>
-            </div>
-            <!-- ---------------------
-              end Business Turnover Spline Area Chart
-             ---------------- -->
-          </div>
-          <div class="col-6">
-            <!-- ---------------------
-            start Expenses Spline Area Chart
-             ---------------- -->
-            <div class="card">
-              <div class="card-body">
-                <h5>Expenses</h5>
-                <div id="expenses-chart-area-spline"></div>
-              </div>
-            </div>
-            <!-- ---------------------
-              end Expenses Spline Area Chart
-             ---------------- -->
-          </div>
-        </div>
-        <div class="row widget-app-columns">
-          <div class="col-12">
-            <div class="card w-100">
-              <div class="card-body">
-                <h5 class="card-title fw-semibold">Gravitas Advice</h5>
-                <p class="card-subtitle">Recommendations</p>
-                <div class="mt-4 pb-3 border-bottom">
-                  <div class="d-flex align-items-center">
-                    <span class="bg-light-primary text-primary badge">Inprogress</span>
-                    <span class="fs-3 ms-auto">8 March 2020</span>
-                  </div>
-                  <h6 class="mt-3">Bank Account</h6>
-                  <span class="fs-3 lh-sm">Earn a better interest rate.</span>
-                  <div class="hstack gap-3 mt-3">
-                    <a href="#" class="fs-3 text-bodycolor d-flex align-items-center text-decoration-none">
-                      <i class="ti ti-clipboard fs-6 text-primary me-2 d-flex"></i> 2 Tasks </a>
-                    <a href="#" class="fs-3 text-bodycolor d-flex align-items-center text-decoration-none">
-                      <i class="ti ti-message-dots fs-6 text-primary me-2 d-flex"></i> 13 Commets </a>
-                  </div>
-                </div>
-                <div class="py-3 border-bottom">
-                  <div class="d-flex align-items-center">
-                    <span class="bg-light-danger text-danger badge">Inpending</span>
-                    <span class="fs-3 ms-auto">8 Jan 2023</span>
-                  </div>
-                  <h6 class="mt-3">Retirement</h6>
-                  <span class="fs-3 lh-sm">Your fees are too high at Old Mutual.</span>
-                  <div class="hstack gap-3 mt-3">
-                    <a href="#" class="fs-3 text-bodycolor d-flex align-items-center text-decoration-none">
-                      <i class="ti ti-clipboard fs-6 text-primary me-2 d-flex"></i> 4 Tasks </a>
-                    <a href="#" class="fs-3 text-bodycolor d-flex align-items-center text-decoration-none">
-                      <i class="ti ti-message-dots fs-6 text-primary me-2 d-flex"></i> 50 Commets </a>
-                  </div>
-                </div>
-                <div class="py-3 border-bottom">
-                  <div class="d-flex align-items-center">
-                    <span class="bg-light-success text-success badge">Completed</span>
-                    <span class="fs-3 ms-auto">8 Feb 2023</span>
-                  </div>
-                  <h6 class="mt-3">Retirement</h6>
-                  <span class="fs-3 lh-sm">You need to save another R3,200 pm for retirement.</span>
-                  <div class="hstack gap-3 mt-3">
-                    <a href="#" class="fs-3 text-bodycolor d-flex align-items-center text-decoration-none">
-                      <i class="ti ti-clipboard fs-6 text-primary me-2 d-flex"></i> 1 Task </a>
-                    <a href="#" class="fs-3 text-bodycolor d-flex align-items-center text-decoration-none">
-                      <i class="ti ti-message-dots fs-6 text-primary me-2 d-flex"></i> 12 Commets </a>
-                  </div>
-                </div>
-                <div class="pt-3 border-bottom">
-                  <div class="d-flex align-items-center">
-                    <span class="bg-light-danger text-danger badge">Inpending</span>
-                    <span class="fs-3 ms-auto">8 Jan 2023</span>
-                  </div>
-                  <h6 class="mt-3">Will</h6>
-                  <span class="fs-3 lh-sm">Your Will needs to be updated.</span>
-                  <div class="hstack gap-3 mt-3">
-                    <a href="#" class="fs-3 text-bodycolor d-flex align-items-center text-decoration-none">
-                      <i class="ti ti-clipboard fs-6 text-primary me-2 d-flex"></i> 4 Tasks </a>
-                    <a href="#" class="fs-3 text-bodycolor d-flex align-items-center text-decoration-none">
-                      <i class="ti ti-message-dots fs-6 text-primary me-2 d-flex"></i> 50 Commets </a>
-                  </div>
                 </div>
               </div>
             </div>
